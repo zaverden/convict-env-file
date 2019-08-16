@@ -17,6 +17,7 @@ const config = convict({
     },
   },
 }, {
+    // `env` option is for quick testing purpose only
     env: {
       API_USER: 'admin',
       // API_PASSWORD: 'admin-admin', // uncomment to check that exact env var has priority over a file var
